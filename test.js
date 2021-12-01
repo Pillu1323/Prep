@@ -1,8 +1,17 @@
-var c = 9;
-var c = 10;
-console.log(c); // 10
+// const Vaada = new Promise(
+//   (resolve) => {
+//     setTimeout(() => {
+//       resolve('Vaada Pura kiya!');
+//     }, 3000);
+//   },
+//   (reject) => {}
+// );
 
-// let a = 7;
+// Vaada.then((value) => console.log(value));
 
-// let a = 5;
-// console.log(a); // gives an error
+// add = (a) => (b) => a + b;
+// console.log(add(4)(5)); // 9
+
+x = 10;
+let x;
+console.log(x);
