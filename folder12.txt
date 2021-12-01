@@ -1,0 +1,12 @@
+// Aggregation framework
+
+Its in core Aggregation framework is just alternative to find method, you could say, you have 
+your collection, and Aggregation framework is all about building up pipeline of steps that runs
+on the data that is retive from your collection, and then gives you the output in the form you
+needed. And these steps are 
+
+collection => {$match} => {$sort} => {$group} => {$project} => output(list of documents)
+
+Steps:
+1. let's import the data:
+mongoimport persons.json -d analytics -c collection persons --jsonArray
