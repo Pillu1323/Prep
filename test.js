@@ -1,2 +1,8 @@
-let columns = process.argv.slice(2);
-console.log(+columns[0]);
+var c = 9;
+var c = 10;
+console.log(c); // 10
+
+// let a = 7;
+
+// let a = 5;
+// console.log(a); // gives an error
